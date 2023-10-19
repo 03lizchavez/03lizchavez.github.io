@@ -1,87 +1,77 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+<html>
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title style="color:AliceBlue;"> Starter HTML</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <title style="color:Black;">Elizabeth Chavez's Portfolio </title>
         <style>
             body {
-                background: LightPink;
+                background: #E0F8F7;
             }</style>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
-    <body style="color:DarkRed;">
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Beginning HTML</h1>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some
-                <strong>inline</strong> code to feature some text. Here is <a
-                href="https://behrend.psu.edu/penn-state-behrend" style="color:DarkRed;">a link to
-                an external website</a>.</p>
-        <p>One of the best <strong>resources</strong> for learning HTML is <a
-                href="https://www.w3schools.com/html/default.asp" style="color:DarkRed;"
-                >w3Schools</a>. Here is a reference for <a href="https://htmlcolorcodes.com/"
-                style="color:DarkRed;">color codes you can use for styling</a>.</p>
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the
-            page.</p>
-        <h2>What are block elements good for?</h2>
-        <p>They're great for separating lines and showing that there's a new paragraph or segment
-            and easier to read when it's separated.</p>
-        <p>The next element after this is a ul, or <q>unordered list</q>. It makes a bulleted
-            list.</p>
-        <ul>
-            <li>headings</li>
-            <li>paragraphs</li>
-            <li>lists</li>
-            <li>tables</li>
-            <li>images</li>
-        </ul>
-        <p>Another example for the use of ul, a grocery list:</p>
-        <ul>
-            <li>honey</li>
-            <li>cilantro</li>
-            <li>avocado</li>
-            <li>rosemary</li>
-            <li>mango</li>
-            <li>blackberries</li>
-            <li>And so on...</li>
-        </ul>
-        <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very similar
-            to the <q>unordered</q> list. You have to see the difference by viewing in a web
-            browser.</p>
-        <ol>
-            <li>morning</li>
-            <li>noon</li>
-            <li>afternoon</li>
-            <li>evening</li>
-            <li>night</li>
-        </ol>
-        <p>It seems to be more like a <strong>structured step-by-step order</strong> with the use of
-            ol comapred to the use of ul</p>
-        <ol>
-            <li>get ready</li>
-            <li>make breakfast</li>
-            <li>take bus to school</li>
-            <li>head to class</li>
-            <li>finish assignments</li>
-            <li>don't fail</li>
-        </ol>
-        <figure>
-            <img src="https://assets.stickpng.com/images/5848551fb772315a9e4dd5d6.png" />
-            <figcaption>Hello Kitty image taken from online as a way to learn to switch images on
-                html switched from a stylized image of a firebelly newt that Dr. B made as a web
-                logo on <a href="https://newtfire.org" style="color:DarkRed;"
-                >newtfire.org</a></figcaption>
-        </figure>
+    <body style="color:Black;">
+        <header>
+            <div class="container">
+                <img
+                    src="https://lh3.googleusercontent.com/etm2ZS0ya3kivdD9mbxsx4W8u2vtXmGIlSjxgjTpDBBKXSeFCD4M66bFAFy0cckX95-Y_zvW8tqQUtr846zIRNg"
+                    alt="Lizlogo" class="Lizlogo" width="110" height="60">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="About.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Artwork.html">Artwork</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1>Elizabeth's Portfolio</h1>
+        <h2>Home</h2>
+        <div id="nav">
+            <div class="header"> </div>
+            <p>Hello, my name is Elizabeth Chavez. I am a third-year
+                undergraduate student at Penn State Behrend majoring in DIGIT. DIGIT is short for
+                Digital Media, Arts and Technology. This website is created by me and it's still a
+                work in progress.</p>
+            
+            <a href="/Artwork/">Artwork</a>
+            <p>Here's a handful of artwork Elizabeth has created throughout her career as an
+                artist</p>
+            <p>
+                <img
+                    src="https://lh3.googleusercontent.com/caYCg1XbI6V17Hq-Tku9v25EIRv_uJGM3Hvn4TcFxc9jn2Onx57wtCm-azzyGFrPVK0Od4mheW3MpvPE8QI5r1Xc8UKzC0EhljBGqjbD8vEpSClEU4rXpH9H20sj0pZO2Q=w1280"
+                    alt="typeface E drip" width="400" height="450">
+                <img
+                    src="https://lh4.googleusercontent.com/Tm44TDw5s0bsRH2K2Quq70fgZES02G4hKikS-UOxWKRSLrgXg65KW0uXn2xmu0E4Xt-5EauN_GaNa7Y4Uv6HVEM=w1280"
+                    alt="Typeface E Fingerprint design" width="250" height="250">
+            </p>
+            <p>
+                <img
+                    src="https://lh5.googleusercontent.com/KmQmFMLtlIGgfd_vKEqGAQyBeXlvr2Z7VeosFSRQhjcU9oVsy-w0NH-jxfGQ6GdUbNdiwYe0PjFDKBcMBwMMxxWJ9iN75Hmqj1Z9Bxjj9pIK0PxUgUchZfpYBPTGQfEbqA=w1280"
+                    alt="Circles grouping" width="350" height="250">
+                <img
+                    src="https://lh4.googleusercontent.com/ngGoE3rrbTjqIOMMfp7Sm9RYcSmhgs5RyoaNJakr8CqfwA_jP6zEvybswzsX7TVz_HQ4v51MVQ0WAHk-qJ75ZmJL3wfiwnYyb_0GMgju6WqX2F2WMUrltXRJnnsjCnU9DA=w1280"
+                    alt="gif making into star" width="350" height="250">
+            </p>
+            <div id="footer"></div>
+            <a href="/Contact/">Contact</a>
+            <p> I am reachable at <strong>email:03lizchavez@gmail.com</strong> or
+                    <strong>email:emc6332@psu.edu</strong></p>
+            <p>To schedule a meeting, the link is provided below:</p>
+            <p>
+                <a href="https://calendly.com/03lizchavez">
+                    <strong>Make an appointment here</strong>
+                </a>
+            </p>
+        </div>
     </body>
 </html>
