@@ -5,7 +5,8 @@ font-family: 'Quicksand', sans-serif;
 }
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
+    line-height: 1.75em;
 }
 header {
     background: #FAFAFA;
