@@ -1,0 +1,7 @@
+1. cbml written down
+2.  yes so div is the parent of cbml:panel and the descendant of cbml:panel is cbml:caption, head, bibl, and fw
+3. 37 lines
+5. in the branch of cbml:panel is 4 attributes, n, characters, type and place.
+6. I'm not sure how to use the <floatingtext>
+This is what I did but I'm almost 100% positive that it isn't correct 
+cbml:panel/ @n | @characters /cbml:caption/head/bibl/fw/ @type |@place [2]

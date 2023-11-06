@@ -1,0 +1,14 @@
+1. Where the position of count() matters because varying from b. //div/*/count(*) or a. //div/count(*) where a. shows in the description 9 items but in the results it shows numbers and doesn't show the xpath location whereas b. shows 20 items and higher numbers but also no xpath location so it begs the question, where are these numbers coming from. Rows? Not sure.
+2. min(//div/*/count(*)) -> 1071 1 item / min(//div/count(*)) -> 1 item
+3. max(//div/count(*))[1] resulted in 1 item saying 4 and min(//div/count(*))[1] resulted in 1 item saying 1
+4. distinct-values(//occupation/@type)
+4 a. distinct-values(count(occupation/@type))
+5. //person/occupation
+5 a. //occupation[@type="artist"]
+5 b. //person/occupation[@type="artist"]
+5 c. //person[@sex]/occupation[@type="artist"]
+5 d. //person/occupation[@subtype]
+5 e. //person/occupation[@subtype="engraver"] 
+5 f. //occupation[@subtype="engraver"] and //bibl/editor[@role="engraver"]
+5 e. //occupation[@subtype="engraver"]
+ don't know how to do the rest

@@ -1,0 +1,12 @@
+1. //body/div
+2. //body/div//*
+3. /TEI[1]/text[1]/body[1]/div[1]/@type
+4. //div/p => count()
+5. //count(p) Note: 118103
+6.  //p[last()] Note: 22
+7.  //editorialDecl/p[last()]
+8. //div[@type][position() le 6] 
+9. Trying to locate the first occupation element
+10. 1503 "person" element
+11. //person//@sex 1378 total
+12. I'm not sure how to do the math on xpath
